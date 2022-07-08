@@ -14,5 +14,5 @@ app.use(express.json());
 //Routes
 app.use("/api/v1/tours", tourRouter);
 app.use("/api/v1/users", userRouter);
-const port = 300;
-app.listen(port, () => console.log(`App running at ${port}`));
+
+module.exports = app;
